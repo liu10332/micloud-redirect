@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 只 hook 小米云备份应用 -->
+    <string-array name="xposed_scope">
+        <item>com.miui.cloudbackup</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiCloud Redirect</string>
+    <string name="xposed_description">将小米云备份请求重定向到私有服务器</string>
+    
+    <!-- 配置界面 -->
+    <string name="settings_title">服务器配置</string>
+    <string name="nas_address">NAS 地址</string>
+    <string name="nas_address_hint">IP 或域名，如 192.168.1.100</string>
+    <string name="protocol">协议</string>
+    <string name="protocol_http">HTTP</string>
+    <string name="protocol_https">HTTPS</string>
+    <string name="port">端口</string>
+    <string name="port_hint">默认 8080</string>
+    <string name="save">保存</string>
+    <string name="test_connection">测试连接</string>
+    <string name="saved_success">配置已保存</string>
+    <string name="test_success">连接成功 ✓</string>
+    <string name="test_fail">连接失败 ✗</string>
+    <string name="test_testing">测试中…</string>
+    <string name="address_empty">请输入 NAS 地址</string>
+    <string name="module_status">模块状态</string>
+    <string name="module_active">模块已激活</string>
+    <string name="module_inactive">模块未激活（需重启作用域应用）</string>
+    <string name="about">关于</string>
+    <string name="about_text">将小米云备份流量重定向到你的私有 NAS 服务器。\n需要 LSPosed 框架支持。</string>
+</resources>
